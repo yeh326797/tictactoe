@@ -1,0 +1,21 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 240px;
+    
+}
+
+.grid {
+    box-sizing: border-box;
+    flex: 33%;
+    height: 33%;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #666;
+    cursor: pointer;
+    margin: -1px 0 0 -1px;   
+}
